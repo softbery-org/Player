@@ -1,0 +1,41 @@
+﻿<Window x:Class="ThmdPlayer.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThmdPlayer"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <!--x:Name="ARC1" 
+    Height="300" Width="300"
+    Stretch="None"
+    ArcThickness="45"
+    ArcThicknessUnit="Pixel"
+    EndAngle="90"-->
+        <Rectangle
+            x:Name="_rectangle"
+            Height="50"
+            Stroke="#000000" 
+            StrokeThickness="3" 
+            RadiusX="5" RadiusY="0">
+            <Rectangle.Fill>
+                <LinearGradientBrush x:Name="_linegradient" EndPoint="0.01,0" StartPoint="1,0">
+                    <GradientStop Color="#FF4100" Offset="1"/>
+                    <GradientStop Color="#FFFF7500"/>
+                    <GradientStop Color="#FF960902" Offset="0.1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Text="{Binding ElementName=SLD, 
+                   Path=Value, StringFormat={}{00:##}}"
+                   FontSize="50" VerticalAlignment="Center" 
+                   TextAlignment="Center" Foreground="DarkMagenta"/>
+        <Slider Height="20" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom"
+            Maximum="100" Name="SLD"
+            ValueChanged="Slider_ValueChanged"/>
+    </Grid>
+</Window>

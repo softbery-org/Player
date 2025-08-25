@@ -1,0 +1,21 @@
+{
+  "DatabaseConnectionString": "server=localhost;database=default",
+  "MaxConnections": 10,
+  "ApiKey": "default-key",
+  "LibVlcPath": "libvlc",
+  "EnableLibVlc": true,
+  "LogsDirectoryPath": "Logs",
+  "EnableLogging": true,
+  "LogLevel": "Debug",
+  "EnableConsoleLogging": true,
+  "Subtitle": {
+    "Enable": true,
+    "FontSize": 12,
+    "FontFamily": "Arial",
+    "TextShadow": true
+  },
+  "Update": {
+    "CheckForUpdates": true,
+    "AutoDownloadUpdates": false
+  }
+}

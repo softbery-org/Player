@@ -1,0 +1,49 @@
+﻿<Window x:Class="ThmdPlayer.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+        xmlns:local="clr-namespace:ThmdPlayer"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <ed:Arc x:Name="ARC1" 
+                Height="300" Width="300"
+                Stretch="None"
+                ArcThickness="45"
+                ArcThicknessUnit="Pixel"
+                EndAngle="90">
+                <ed:Arc.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF16A8D8" Offset="1"/>
+                        <GradientStop Color="#FF5DDBE8"/>
+                        <GradientStop Color="#FF127EA1" Offset="0.981"/>
+                    </LinearGradientBrush>
+                </ed:Arc.Fill>
+            </ed:Arc>
+            <TextBlock Text="{Binding ElementName=SLD, 
+                Path=Value, StringFormat={}{0:#}%}"
+                       FontSize="50" VerticalAlignment="Center" 
+                       TextAlignment="Center" Foreground="DarkMagenta"/>
+        </Grid>
+        <ed:Arc x:Name="ARC2" Grid.Column="1"
+                Fill="Blue" 
+                Height="300" Width="300"
+                Stretch="None"
+                ArcThickness="15"
+                ArcThicknessUnit="Percent"
+                EndAngle="35" />
+        <Slider Height="20" 
+                Grid.Column="0" 
+                Grid.ColumnSpan="2"
+                VerticalAlignment="Bottom"
+                Maximum="100" Name="SLD"
+                ValueChanged="Slider_ValueChanged"/>
+    </Grid>
+</Window>

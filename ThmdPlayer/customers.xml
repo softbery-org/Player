@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CUSTOMERS CO="ABC inc">
+  <CUSTOMER ID="1" CODE="JO">
+    <NAME>JOHN DOE</NAME>
+    <GENDER IMG="MALE.PNG" COLOR="LightBlue">M</GENDER>
+    <PHONE>
+      <CELL>111-111-CELL</CELL>
+      <WORK>111-111-WORK</WORK>
+    </PHONE>
+  </CUSTOMER>
+    <CUSTOMER ID="2" CODE="MO">
+    <NAME>JANE DOE</NAME>
+    <GENDER IMG="FEMALE.PNG" COLOR="Pink">F</GENDER>
+      <PHONE>
+        <CELL>222-222-CELL</CELL>
+        <WORK>222-222-WORK</WORK>
+      </PHONE>
+  </CUSTOMER>
+  <CUSTOMER ID="3">
+    <NAME>JIM JONES</NAME>
+    <GENDER IMG="MALE.PNG" COLOR="LightBlue">M</GENDER>
+    <PHONE>
+      <CELL>333-333-CELL</CELL>
+      <WORK>333-333-WORK</WORK>
+    </PHONE>
+    <ADDR>123 any st</ADDR>
+    <ADDR>anytown, ST</ADDR>
+  </CUSTOMER>
+  <CUSTOMER ID="4">
+    <NAME>JILL JONES</NAME>
+    <GENDER IMG="FEMALE.PNG" COLOR="Pink">F</GENDER>
+    <PHONE>
+      <CELL>444-444-CELL</CELL>
+      <WORK>444-444-WORK</WORK>
+    </PHONE>
+  </CUSTOMER>
+  <CUSTOMER ID="5">
+    <NAME>TIM JONES</NAME>
+    <GENDER IMG="MALE.PNG" COLOR="LightBlue">M</GENDER>
+    <PHONE>
+      <CELL>555-555-CELL</CELL>
+      <WORK>555-555-WORK</WORK>
+    </PHONE>
+  </CUSTOMER>
+</CUSTOMERS>

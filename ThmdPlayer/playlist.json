@@ -1,0 +1,38 @@
+﻿{
+  /// <summary>
+  /// Gets or sets a value indicating whether shuffle mode is enabled for playlist playback.
+  /// Defaults to false.
+  /// </summary>
+  "EnableShuffle":true,
+
+  /// <summary>
+  /// Gets or sets the repeat mode for playlist playback (e.g., None, Current, All, Random).
+  /// Defaults to <see cref="RepeatType.None"/>.
+  /// </summary>
+  "RepeatType" : "All",
+
+  /// <summary>
+  /// Gets or sets a value indicating whether auto-play is enabled, starting playback automatically when a playlist is loaded.
+  /// Defaults to true.
+  /// </summary>
+  "AutoPlay":true,
+
+  /// <summary>
+  /// Gets or sets the list of media file paths or URIs in the playlist.
+  /// Defaults to an empty list.
+  /// </summary>
+  "MediaList": [
+    "F:/Filmy/Brickleberry S01E01 PL 720 mp4.mp4",
+    "F:/Filmy/Jurassic World Odrodzenie Jurassic World Rebirth 2025 - Filman c.mp4",
+    "F:/Filmy/Kapitan Ameryka Nowy wspaniały swiat Captain America Brave New W.mp4",
+    "F:/Filmy/Mickey 17 2025 - Filman cc - Filmy i Seriale Online za Darmo.mp4",
+    "F:/Filmy/A Minecraft Movie/Minecraft Film A Minecraft Movie 2025 - Filman cc - Filmy i Seri.mp4",
+    "F:/Filmy/Arcane/Sezon 2/Arcane - Sezon 2 Odcinek 3 - Filman cc - Filmy i Seriale Online .mp4",
+    "F:/Filmy/Arcane/Sezon 2/Arcane - Sezon 2 Odcinek 1 - Filman cc - Filmy i Seriale Online .mp4",
+    "F:/Filmy/Arcane/Sezon 2/Arcane - Sezon 2 Odcinek 2 - Filman cc - Filmy i Seriale Online .mp4",
+    "F:/Filmy/Futurama/Futurama S07E03 PL 720p.mp4",
+    "F:/Filmy/Wojna swiatow Wyginiecie War of the Worlds Extinction 2024 - Fil.mp4",
+    "F:/Filmy/_ __ __  _ C....J.-== - -=  (2024) Dubbing PL.WEB-DL.XviD-AZQ.avi"
+  ]
+
+}

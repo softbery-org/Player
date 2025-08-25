@@ -1,0 +1,3 @@
+[submodule "Thmd"]
+	path = Thmd
+	url = https://github.com/softbery-org/Thmd.git
